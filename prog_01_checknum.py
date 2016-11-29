@@ -5,11 +5,6 @@
      - if it is Odd or Even. 
      - if it is Prime or Composite"""
      
-# get input from user
-inputstr = input("Enter the Number: ")
-
-# print the input
-print('The number entered is', inputstr)
 
 #function to check if input is an integer
 def is_integer(inputstr):
@@ -28,8 +23,14 @@ def is_integer(inputstr):
   else:
     return False
     #print("Input in not an integer, quitting")
-  #exit()
+
   
+# get input from user
+inputstr = input("Enter the Number: ")
+
+# print the input
+print('The number entered is', inputstr)
+
 x = is_integer(inputstr)
 print(x)
 
@@ -75,12 +76,3 @@ if (number > 1):
     print(number, "is Prime")   
 else:
   print(number, 'is neither Prime nor Composite')
-
-
-      
-
-  
-
-
-
-		     
